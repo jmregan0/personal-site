@@ -1,0 +1,41 @@
+.p-1 {
+  background-image: url("images/img24.jpg");
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.p-2 {
+  background-image: url("images/img23.jpg");
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.p-3 {
+  background-image: url("images/img22.jpg");
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectional {
+  height: 80vh;
+  min-width: 100vw;
+  background-color: #FFFFFF;
+}
