@@ -3,6 +3,7 @@ import Navbar from './navbar';
 import About from './about';
 import Projects from './projects';
 import Modal from './modal';
+import Contact from './contact';
 
 class App extends React.Component {
   constructor(props){
@@ -53,6 +54,9 @@ class App extends React.Component {
           <Projects toggleModal={this.toggleModal} />
         </div>
         <div className="p-3"></div>
+        <div className="sectional-sm">
+          <Contact />
+        </div>
         <div className={`overlay ${this.state.showModal ? 'visible' : 'hidden'}`}>
           <Modal
             toggleModal={this.toggleModal}

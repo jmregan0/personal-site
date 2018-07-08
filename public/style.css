@@ -41,6 +41,13 @@
   background-color: #FFFFFF;
 }
 
+.sectional-sm {
+  height: 35vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  background-color: #FFFFFF;
+}
+
 .overlay {
   position: fixed;
   justify-content: center;
